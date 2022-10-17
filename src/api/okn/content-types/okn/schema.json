@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "okns",
+  "info": {
+    "singularName": "okn",
+    "pluralName": "okns",
+    "displayName": "Okn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "geometry": {
+      "displayName": "geometry",
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry",
+      "required": true
+    },
+    "data": {
+      "displayName": "data",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.data",
+      "required": true
+    }
+  }
+}

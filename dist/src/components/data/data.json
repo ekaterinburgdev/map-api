@@ -1,0 +1,40 @@
+{
+    "collectionName": "components_data_data",
+    "info": {
+        "displayName": "data",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "address": {
+            "type": "string",
+            "required": true
+        },
+        "okn_number": {
+            "type": "biginteger",
+            "required": true
+        },
+        "comment": {
+            "type": "text"
+        },
+        "type": {
+            "type": "string",
+            "required": true
+        },
+        "date": {
+            "type": "string",
+            "required": true
+        },
+        "category": {
+            "type": "string",
+            "required": true
+        },
+        "state": {
+            "type": "string"
+        }
+    }
+}
