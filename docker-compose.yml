@@ -3,7 +3,7 @@ version: "3.9"
 services:
   postgres:
     container_name: postgres
-    image: postgres:14.2-alpine
+    image: postgres:15.0-alpine
     restart: always
     env_file:
       - .env
@@ -16,7 +16,7 @@ services:
     restart: always
     env_file:
       - .env
-    command: bash -c "/wait && npm start"
+    command: bash -c "/wait && npm run build && npm start"
     depends_on:
       - postgres
     environment:

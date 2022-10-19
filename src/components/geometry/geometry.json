@@ -7,9 +7,7 @@
   "options": {},
   "attributes": {
     "coordinates": {
-      "type": "component",
-      "repeatable": false,
-      "component": "coordinates.coordinates",
+      "type": "json",
       "required": true
     },
     "type": {
