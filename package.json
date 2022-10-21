@@ -2,22 +2,22 @@
   "name": "infomaps",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "infomaps",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.3.2",
-    "@strapi/plugin-users-permissions": "4.3.2",
     "@strapi/plugin-i18n": "4.3.2",
-    "pg": "8.6.0"
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/strapi": "4.3.2",
+    "pg": "8.6.0",
+    "strapi-plugin-import-export-entries": "^1.16.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Ekaterinburg-dev"
   },
   "strapi": {
     "uuid": "6dac84de-128a-4c18-8b18-cf0a411d2e0c"
