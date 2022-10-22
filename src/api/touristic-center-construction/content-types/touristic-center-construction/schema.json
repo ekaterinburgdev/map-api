@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "touristic_center_constructions",
+  "info": {
+    "singularName": "touristic-center-construction",
+    "pluralName": "touristic-center-constructions",
+    "displayName": "Touristic Center Construction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "building": {
+      "type": "string",
+      "required": true
+    },
+    "street": {
+      "type": "string"
+    },
+    "house_number": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry",
+      "required": true
+    },
+    "levels": {
+      "type": "integer"
+    }
+  }
+}
