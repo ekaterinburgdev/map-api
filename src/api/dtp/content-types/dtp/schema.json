@@ -1,0 +1,28 @@
+{
+    "kind": "collectionType",
+    "collectionName": "dtps",
+    "info": {
+      "singularName": "dtp",
+      "pluralName": "dtps",
+      "displayName": "dtp",
+      "description": ""
+    },
+    "options": {
+      "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+      "geometry": {
+        "type": "component",
+        "repeatable": false,
+        "component": "geometry.geometry"
+      },
+      "properties": {
+        "displayName": "properties",
+        "type": "component",
+        "repeatable": false,
+        "component": "properties.properties"
+      }
+    }
+  }
+  

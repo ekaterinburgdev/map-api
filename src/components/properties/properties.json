@@ -1,0 +1,67 @@
+{
+    "collectionName": "components_properties_properties",
+    "info": {
+      "displayName": "properties",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "injured_count": {
+        "type": "integer"
+      },
+      "dead_count": {
+        "type": "integer"
+      },
+      "participants_count": {
+        "type": "integer"
+      },
+      "light": {
+        "type": "enumeration",
+        "enum": [
+          "Светлое время суток",
+          "В темное время суток, освещение включено",
+          "В темное время суток, освещение не включено",
+          "Сумерки"
+        ]
+      },
+      "address": {
+        "type": "string"
+      },
+      "datetime": {
+        "type": "datetime"
+      },
+      "severity": {
+        "type": "enumeration",
+        "enum": [
+          "Тяжёлый",
+          "С погибшими",
+          "Легкий"
+        ]
+      },
+      "vehicles": {
+        "displayName": "vehicles",
+        "type": "component",
+        "repeatable": true,
+        "component": "vehicles.vehicles"
+      },
+      "participants": {
+        "type": "json"
+      },
+      "road_conditions": {
+        "type": "json"
+      },
+      "participant_categories": {
+        "type": "json"
+      },
+      "weather": {
+        "type": "json"
+      },
+      "nearby": {
+        "type": "json"
+      },
+      "tags": {
+        "type": "json"
+      }
+    }
+  }
+  

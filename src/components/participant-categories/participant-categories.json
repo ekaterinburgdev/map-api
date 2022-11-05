@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_participant_categories_participant_categories",
+    "info": {
+      "displayName": "participant_categories"
+    },
+    "options": {},
+    "attributes": {
+      "participant_categories": {
+        "type": "enumeration",
+        "enum": [
+          "Дети",
+          "Общ. транспорт",
+          "Все участники",
+          "Пешеходы",
+          "Велосипедисты",
+          "Мотоциклисты"
+        ]
+      }
+    }
+  }
+  

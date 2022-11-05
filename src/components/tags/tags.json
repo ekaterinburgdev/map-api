@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_tags_tags",
+    "info": {
+      "displayName": "tags"
+    },
+    "options": {},
+    "attributes": {
+      "tags": {
+        "type": "enumeration",
+        "enum": [
+          "Дорожно-транспортные происшествия",
+          "ДТП и пострадавшие дети в возрасте до 16 лет"
+        ]
+      }
+    }
+  }
+  
