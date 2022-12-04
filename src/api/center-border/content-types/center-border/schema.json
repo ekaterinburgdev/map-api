@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "center_borders",
+  "info": {
+    "singularName": "center-border",
+    "pluralName": "center-borders",
+    "displayName": "Сenter Border",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    }
+  }
+}

@@ -1,67 +1,90 @@
 {
-    "collectionName": "components_properties_properties",
-    "info": {
-      "displayName": "properties",
-      "description": ""
+  "collectionName": "components_properties_properties",
+  "info": {
+    "displayName": "properties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "injured_count": {
+      "type": "integer"
     },
-    "options": {},
-    "attributes": {
-      "injured_count": {
-        "type": "integer"
-      },
-      "dead_count": {
-        "type": "integer"
-      },
-      "participants_count": {
-        "type": "integer"
-      },
-      "light": {
-        "type": "enumeration",
-        "enum": [
-          "Светлое время суток",
-          "В темное время суток, освещение включено",
-          "В темное время суток, освещение не включено",
-          "Сумерки"
-        ]
-      },
-      "address": {
-        "type": "string"
-      },
-      "datetime": {
-        "type": "datetime"
-      },
-      "severity": {
-        "type": "enumeration",
-        "enum": [
-          "Тяжёлый",
-          "С погибшими",
-          "Легкий"
-        ]
-      },
-      "vehicles": {
-        "displayName": "vehicles",
-        "type": "component",
-        "repeatable": true,
-        "component": "vehicles.vehicles"
-      },
-      "participants": {
-        "type": "json"
-      },
-      "road_conditions": {
-        "type": "json"
-      },
-      "participant_categories": {
-        "type": "json"
-      },
-      "weather": {
-        "type": "json"
-      },
-      "nearby": {
-        "type": "json"
-      },
-      "tags": {
-        "type": "json"
-      }
+    "dead_count": {
+      "type": "integer"
+    },
+    "participants_count": {
+      "type": "integer"
+    },
+    "light": {
+      "type": "enumeration",
+      "enum": [
+        "Светлое время суток",
+        "В темное время суток, освещение включено",
+        "В темное время суток, освещение не включено",
+        "В темное время суток, освещение отсутствует",
+        "Сумерки"
+      ]
+    },
+    "address": {
+      "type": "string"
+    },
+    "datetime": {
+      "type": "datetime"
+    },
+    "severity": {
+      "type": "enumeration",
+      "enum": [
+        "Тяжёлый",
+        "С погибшими",
+        "Легкий"
+      ]
+    },
+    "vehicles": {
+      "displayName": "vehicles",
+      "type": "component",
+      "repeatable": true,
+      "component": "vehicles.vehicles"
+    },
+    "participants": {
+      "type": "json"
+    },
+    "road_conditions": {
+      "type": "json"
+    },
+    "participant_categories": {
+      "type": "json"
+    },
+    "weather": {
+      "type": "json"
+    },
+    "nearby": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Возгорание вследствие технической неисправности движущегося или остановившегося ТС, участвующего в дорожном движении.",
+        "Иной вид ДТП",
+        "Наезд на велосипедиста",
+        "Наезд на внезапно возникшее препятствие",
+        "Наезд на гужевой транспорт",
+        "Наезд на животное",
+        "Наезд на лицо, не являющееся участником дорожного движения, осуществляющее какую-либо другую деятельность",
+        "Наезд на лицо, не являющееся участником дорожного движения, осуществляющее несение службы",
+        "Наезд на лицо, не являющееся участником дорожного движения, осуществляющее производство работ",
+        "Наезд на пешехода",
+        "Наезд на препятствие",
+        "Наезд на стоящее ТС",
+        " Опрокидывание",
+        " Отбрасывание предмета",
+        "Падение груза",
+        "Падение пассажира",
+        "Столкновение",
+        "Съезд с дороги"
+      ]
     }
   }
-  
+}

@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_data_center_data_centers",
+  "info": {
+    "displayName": "dataCenter"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "floors": {
+      "type": "integer"
+    },
+    "house_number": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "building": {
+      "type": "enumeration",
+      "enum": [
+        "university",
+        "skyscraper",
+        "culture",
+        "office",
+        "apartments",
+        "commercial",
+        "college",
+        "retail",
+        "service",
+        "government",
+        "historical",
+        "sport",
+        "hotel",
+        "kindergarten",
+        "school",
+        "church",
+        "hospital",
+        "sports_centre",
+        "chapel",
+        "supermarket",
+        "house",
+        "store",
+        "public",
+        "synagogue",
+        "shop"
+      ]
+    }
+  }
+}

@@ -12,27 +12,17 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "building": {
-      "type": "string",
-      "required": true
-    },
-    "street": {
-      "type": "string"
-    },
-    "house_number": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
     "geometry": {
       "type": "component",
       "repeatable": false,
       "component": "geometry.geometry",
       "required": true
     },
-    "levels": {
-      "type": "integer"
+    "data": {
+      "displayName": "dataCenter",
+      "type": "component",
+      "repeatable": false,
+      "component": "data-center.data-center"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "okns",
+  "collectionName": "outside_center_constructions",
   "info": {
-    "singularName": "okn",
-    "pluralName": "okns",
-    "displayName": "Okn",
+    "singularName": "outside-center-construction",
+    "pluralName": "outside-center-constructions",
+    "displayName": "Outside Center Construction",
     "description": ""
   },
   "options": {
@@ -13,18 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "geometry": {
-      "displayName": "geometry",
       "type": "component",
       "repeatable": false,
-      "component": "geometry.geometry",
-      "required": true
+      "component": "geometry.geometry"
     },
     "data": {
-      "displayName": "data",
       "type": "component",
       "repeatable": false,
-      "component": "data.data",
-      "required": true
+      "component": "data-center.data-center"
     }
   }
 }

@@ -33,8 +33,20 @@
       "type": "string",
       "required": true
     },
-    "state": {
+    "img": {
       "type": "string"
+    },
+    "isExist": {
+      "type": "enumeration",
+      "enum": [
+        "Оригинальный облик утрачен",
+        "Утраченный",
+        "Перенесён",
+        "Исключен"
+      ]
+    },
+    "document": {
+      "type": "text"
     }
   }
 }

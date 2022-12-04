@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blue_lines",
+  "info": {
+    "singularName": "blue-line",
+    "pluralName": "blue-lines",
+    "displayName": "Blue Line",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "geometry": {
+      "type": "component",
+      "repeatable": true,
+      "component": "geometry.geometry"
+    },
+    "iconCaption": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

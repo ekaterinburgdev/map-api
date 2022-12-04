@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pink_lines",
+  "info": {
+    "singularName": "pink-line",
+    "pluralName": "pink-lines",
+    "displayName": "Pink Line",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "iconCaption": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

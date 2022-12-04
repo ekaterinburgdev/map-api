@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "dtps",
+  "collectionName": "okn_protect_zones",
   "info": {
-    "singularName": "dtp",
-    "pluralName": "dtps",
-    "displayName": "dtp",
+    "singularName": "okn-protect-zone",
+    "pluralName": "okn-protect-zones",
+    "displayName": "Okn Protect Zone",
     "description": ""
   },
   "options": {
@@ -16,12 +16,6 @@
       "type": "component",
       "repeatable": false,
       "component": "geometry.geometry"
-    },
-    "properties": {
-      "displayName": "properties",
-      "type": "component",
-      "repeatable": false,
-      "component": "properties.properties"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "okns",
+  "collectionName": "center_constructions",
   "info": {
-    "singularName": "okn",
-    "pluralName": "okns",
-    "displayName": "Okn",
+    "singularName": "center-construction",
+    "pluralName": "center-constructions",
+    "displayName": "Center Construction",
     "description": ""
   },
   "options": {
@@ -13,18 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "geometry": {
-      "displayName": "geometry",
       "type": "component",
       "repeatable": false,
-      "component": "geometry.geometry",
-      "required": true
+      "component": "geometry.geometry"
     },
     "data": {
-      "displayName": "data",
       "type": "component",
       "repeatable": false,
-      "component": "data.data",
-      "required": true
+      "component": "data-center.data-center"
     }
   }
 }
