@@ -15,7 +15,8 @@
     "@strapi/plugin-users-permissions": "4.3.2",
     "@strapi/strapi": "4.3.2",
     "pg": "8.6.0",
-    "strapi-plugin-import-export-entries": "^1.16.2"
+    "strapi-plugin-import-export-entries": "^1.16.2",
+    "strapi-provider-rest-cache-memory": "^4.2.4"
   },
   "author": {
     "name": "Ekaterinburg-dev"

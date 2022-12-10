@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "touristic_center_constructions_objects",
+  "info": {
+    "singularName": "touristic-center-constructions-object",
+    "pluralName": "touristic-center-constructions-objects",
+    "displayName": "Touristic Center Constructions Objects"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "floors": {
+      "type": "integer"
+    },
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    },
+    "borders": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    },
+    "address": {
+      "type": "string"
+    },
+    "building": {
+      "type": "enumeration",
+      "enum": [
+        "university",
+        "skyscraper",
+        "culture",
+        "office",
+        "apartments",
+        "commercial",
+        "college",
+        "retail",
+        "service",
+        "government",
+        "historical",
+        "sport",
+        "hotel",
+        "kindergarten",
+        "school",
+        "church",
+        "hospital",
+        "sports_centre",
+        "chapel",
+        "supermarket",
+        "house",
+        "store",
+        "public",
+        "synagogue",
+        "shop"
+      ]
+    }
+  }
+}
