@@ -16,4 +16,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /usr/local/map-admin
+          git pull
           make all
