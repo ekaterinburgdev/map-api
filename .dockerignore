@@ -1,4 +1,10 @@
 .git
 
 node_modules/
-dist
+dist/
+.idea/
+.github/
+.gitignore
+.strapi-updater.json
+README.md
+yarn-error.log
