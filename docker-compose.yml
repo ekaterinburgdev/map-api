@@ -16,7 +16,7 @@ services:
     restart: always
     env_file:
       - .env
-    command: npm run build --clean && npm run develop
+    command: sh -c "npm run build --clean && npm run develop"
     depends_on:
       - postgres
     ports:
