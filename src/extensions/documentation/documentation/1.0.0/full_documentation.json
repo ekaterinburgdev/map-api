@@ -28,10 +28,6 @@
   },
   "servers": [
     {
-      "url": "https://map-api.ekaterinburg.io",
-      "description": "Production server"
-    },
-    {
       "url": "http://localhost:1337/api",
       "description": "Development server"
     }

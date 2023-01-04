@@ -49,6 +49,9 @@
       },
       "WearAndTear": {
         "type": "float"
+      },
+      "CoordinatesHash": {
+        "type": "string"
       }
     }
   }

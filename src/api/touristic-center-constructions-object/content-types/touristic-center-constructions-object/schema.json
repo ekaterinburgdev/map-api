@@ -59,6 +59,9 @@
         "synagogue",
         "shop"
       ]
+    },
+    "CoordinatesHash": {
+      "type": "string"
     }
   }
 }

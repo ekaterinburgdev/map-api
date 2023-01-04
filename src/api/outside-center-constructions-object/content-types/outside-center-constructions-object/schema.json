@@ -60,6 +60,9 @@
       "type": "component",
       "repeatable": false,
       "component": "geometry.geometry"
+    },
+    "CoordinatesHash": {
+      "type": "string"
     }
   }
 }
