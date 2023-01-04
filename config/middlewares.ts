@@ -14,4 +14,5 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
+  'plugin::strapi-plugin-moesif.moesif',
 ];

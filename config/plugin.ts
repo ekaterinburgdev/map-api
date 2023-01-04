@@ -37,4 +37,11 @@ export default ({ env }) => ({
         },
       },
     },
+    'strapi-plugin-moesif': {
+      enabled: true,
+      config: {
+        moesif: {
+        }
+      },
+    },
   });
