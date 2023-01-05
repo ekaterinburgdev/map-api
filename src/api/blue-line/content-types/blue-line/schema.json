@@ -14,7 +14,7 @@
   "attributes": {
     "geometry": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "geometry.geometry"
     },
     "iconCaption": {
