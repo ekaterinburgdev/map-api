@@ -33,6 +33,9 @@
         "videos",
         "audios"
       ]
+    },
+    "CoordinatesHash": {
+      "type": "string"
     }
   }
 }
