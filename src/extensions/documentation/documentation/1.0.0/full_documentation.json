@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-12-04T21:22:59.997Z"
+    "x-generation-date": "2023-01-10T11:02:05.757Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -98,23 +98,20 @@
             "type": "object",
             "properties": {
               "geometry": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "coordinates": {},
-                    "type": {
-                      "type": "string",
-                      "enum": [
-                        "Point",
-                        "MultiPoint",
-                        "LineString",
-                        "MultiLineString",
-                        "Polygon",
-                        "MultiPolygon",
-                        "GeometryCollection"
-                      ]
-                    }
+                "type": "object",
+                "properties": {
+                  "coordinates": {},
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "Point",
+                      "MultiPoint",
+                      "LineString",
+                      "MultiLineString",
+                      "Polygon",
+                      "MultiPolygon",
+                      "GeometryCollection"
+                    ]
                   }
                 }
               },
@@ -137,6 +134,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -157,26 +157,23 @@
                   "type": "object",
                   "properties": {
                     "geometry": {
-                      "type": "array",
-                      "items": {
-                        "type": "object",
-                        "properties": {
-                          "id": {
-                            "type": "string"
-                          },
-                          "coordinates": {},
-                          "type": {
-                            "type": "string",
-                            "enum": [
-                              "Point",
-                              "MultiPoint",
-                              "LineString",
-                              "MultiLineString",
-                              "Polygon",
-                              "MultiPolygon",
-                              "GeometryCollection"
-                            ]
-                          }
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "coordinates": {},
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "Point",
+                            "MultiPoint",
+                            "LineString",
+                            "MultiLineString",
+                            "Polygon",
+                            "MultiPolygon",
+                            "GeometryCollection"
+                          ]
                         }
                       }
                     },
@@ -810,6 +807,9 @@
                         }
                       }
                     },
+                    "CoordinatesHash": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -1146,26 +1146,23 @@
                 "type": "object",
                 "properties": {
                   "geometry": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "coordinates": {},
-                        "type": {
-                          "type": "string",
-                          "enum": [
-                            "Point",
-                            "MultiPoint",
-                            "LineString",
-                            "MultiLineString",
-                            "Polygon",
-                            "MultiPolygon",
-                            "GeometryCollection"
-                          ]
-                        }
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "coordinates": {},
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "Point",
+                          "MultiPoint",
+                          "LineString",
+                          "MultiLineString",
+                          "Polygon",
+                          "MultiPolygon",
+                          "GeometryCollection"
+                        ]
                       }
                     }
                   },
@@ -1798,6 +1795,9 @@
                         }
                       }
                     }
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -4515,6 +4515,9 @@
                     ]
                   }
                 }
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -4614,6 +4617,9 @@
                           ]
                         }
                       }
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -5030,6 +5036,9 @@
                         ]
                       }
                     }
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -6406,6 +6415,42 @@
               "WearAndTear": {
                 "type": "number",
                 "format": "float"
+              },
+              "CoordinatesHash": {
+                "type": "string"
+              },
+              "borders": {
+                "type": "object",
+                "properties": {
+                  "coordinates": {},
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "Point",
+                      "MultiPoint",
+                      "LineString",
+                      "MultiLineString",
+                      "Polygon",
+                      "MultiPolygon",
+                      "GeometryCollection"
+                    ]
+                  }
+                }
+              },
+              "LivingRoomsCount": {
+                "type": "integer"
+              },
+              "RoomsCount": {
+                "type": "integer"
+              },
+              "LiftsCount": {
+                "type": "integer"
+              },
+              "EntranceCount": {
+                "type": "integer"
+              },
+              "MinimalFloors": {
+                "type": "integer"
               }
             }
           }
@@ -6478,6 +6523,45 @@
                     "WearAndTear": {
                       "type": "number",
                       "format": "float"
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
+                    },
+                    "borders": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "coordinates": {},
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "Point",
+                            "MultiPoint",
+                            "LineString",
+                            "MultiLineString",
+                            "Polygon",
+                            "MultiPolygon",
+                            "GeometryCollection"
+                          ]
+                        }
+                      }
+                    },
+                    "LivingRoomsCount": {
+                      "type": "integer"
+                    },
+                    "RoomsCount": {
+                      "type": "integer"
+                    },
+                    "LiftsCount": {
+                      "type": "integer"
+                    },
+                    "EntranceCount": {
+                      "type": "integer"
+                    },
+                    "MinimalFloors": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -6867,6 +6951,45 @@
                   "WearAndTear": {
                     "type": "number",
                     "format": "float"
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
+                  },
+                  "borders": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "coordinates": {},
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "Point",
+                          "MultiPoint",
+                          "LineString",
+                          "MultiLineString",
+                          "Polygon",
+                          "MultiPolygon",
+                          "GeometryCollection"
+                        ]
+                      }
+                    }
+                  },
+                  "LivingRoomsCount": {
+                    "type": "integer"
+                  },
+                  "RoomsCount": {
+                    "type": "integer"
+                  },
+                  "LiftsCount": {
+                    "type": "integer"
+                  },
+                  "EntranceCount": {
+                    "type": "integer"
+                  },
+                  "MinimalFloors": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
@@ -8125,6 +8248,9 @@
                     ]
                   }
                 }
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -8232,6 +8358,9 @@
                           ]
                         }
                       }
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -8656,6 +8785,9 @@
                         ]
                       }
                     }
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -11365,6 +11497,9 @@
                     ]
                   }
                 }
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -11464,6 +11599,9 @@
                           ]
                         }
                       }
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -11881,6 +12019,9 @@
                       }
                     }
                   },
+                  "CoordinatesHash": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
@@ -12230,6 +12371,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -12899,6 +13043,9 @@
                           }
                         }
                       }
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -13885,6 +14032,9 @@
                         }
                       }
                     }
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",
@@ -14969,6 +15119,9 @@
               },
               "description": {
                 "type": "string"
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -15637,6 +15790,9 @@
                       }
                     },
                     "description": {
+                      "type": "string"
+                    },
+                    "CoordinatesHash": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -16623,6 +16779,9 @@
                     }
                   },
                   "description": {
+                    "type": "string"
+                  },
+                  "CoordinatesHash": {
                     "type": "string"
                   },
                   "createdAt": {
@@ -19335,6 +19494,9 @@
                   "synagogue",
                   "shop"
                 ]
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -19434,6 +19596,9 @@
                         "synagogue",
                         "shop"
                       ]
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -19850,6 +20015,9 @@
                       "synagogue",
                       "shop"
                     ]
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

@@ -52,6 +52,26 @@
       },
       "CoordinatesHash": {
         "type": "string"
+      },
+      "borders": {
+        "type": "component",
+        "repeatable": false,
+        "component": "geometry.geometry"
+      },
+      "LivingRoomsCount": {
+        "type": "integer"
+      },
+      "RoomsCount": {
+        "type": "integer"
+      },
+      "LiftsCount": {
+        "type": "integer"
+      },
+      "EntranceCount": {
+        "type": "integer"
+      },
+      "MinimalFloors": {
+        "type": "integer"
       }
     }
   }
