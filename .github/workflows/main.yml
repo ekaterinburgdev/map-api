@@ -7,6 +7,7 @@ on:
       - .editorconfig
       - .gitignore
       - README.md
+      - .github
 jobs:
   deploy:
     name: Build
