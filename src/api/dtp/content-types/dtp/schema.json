@@ -16,12 +16,6 @@
       "type": "component",
       "repeatable": false,
       "component": "geometry.geometry"
-    },
-    "properties": {
-      "displayName": "properties",
-      "type": "component",
-      "repeatable": false,
-      "component": "properties.properties"
     }
   }
 }
