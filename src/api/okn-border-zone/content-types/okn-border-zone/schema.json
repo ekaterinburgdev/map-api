@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "okn_border_zones",
+  "info": {
+    "singularName": "okn-border-zone",
+    "pluralName": "okn-border-zones",
+    "displayName": "Okn Border Zone"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    }
+  }
+}
