@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-01-23T16:37:54.202Z"
+    "x-generation-date": "2023-01-23T18:41:22.405Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5395,6 +5395,9 @@
                     ]
                   }
                 }
+              },
+              "id_string": {
+                "type": "string"
               }
             }
           }
@@ -5461,15 +5464,14 @@
                         }
                       }
                     },
+                    "id_string": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
                     },
                     "updatedAt": {
-                      "type": "string",
-                      "format": "date-time"
-                    },
-                    "publishedAt": {
                       "type": "string",
                       "format": "date-time"
                     },
@@ -5847,15 +5849,14 @@
                       }
                     }
                   },
+                  "id_string": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
                   },
                   "updatedAt": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "publishedAt": {
                     "type": "string",
                     "format": "date-time"
                   },
@@ -9021,10 +9022,6 @@
                       "type": "string",
                       "format": "date-time"
                     },
-                    "publishedAt": {
-                      "type": "string",
-                      "format": "date-time"
-                    },
                     "createdBy": {
                       "type": "object",
                       "properties": {
@@ -9378,10 +9375,6 @@
                     "format": "date-time"
                   },
                   "updatedAt": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "publishedAt": {
                     "type": "string",
                     "format": "date-time"
                   },
