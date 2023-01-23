@@ -1,0 +1,17 @@
+name: remote ssh command
+on:
+  pull_request:
+    types: [closed]
+jobs:
+  reset:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: reset
+      uses: appleboy/ssh-action@v0.1.6
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        script: |
+          git checkout sync
+          git reset --hard main
