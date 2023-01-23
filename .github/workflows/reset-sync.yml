@@ -13,5 +13,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         script: |
+          cd /usr/local/map-admin
           git checkout sync
           git reset --hard main
