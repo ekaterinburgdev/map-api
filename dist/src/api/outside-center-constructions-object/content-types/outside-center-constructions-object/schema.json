@@ -1,0 +1,68 @@
+{
+    "kind": "collectionType",
+    "collectionName": "outside_center_constructions_objects",
+    "info": {
+        "singularName": "outside-center-constructions-object",
+        "pluralName": "outside-center-constructions-objects",
+        "displayName": "Outside Center Constructions Objects",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "floors": {
+            "type": "integer"
+        },
+        "building": {
+            "type": "enumeration",
+            "enum": [
+                "university",
+                "skyscraper",
+                "culture",
+                "office",
+                "apartments",
+                "commercial",
+                "college",
+                "retail",
+                "service",
+                "government",
+                "historical",
+                "sport",
+                "hotel",
+                "kindergarten",
+                "school",
+                "church",
+                "hospital",
+                "sports_centre",
+                "chapel",
+                "supermarket",
+                "house",
+                "store",
+                "public",
+                "synagogue",
+                "shop"
+            ]
+        },
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "borders": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "CoordinatesHash": {
+            "type": "string"
+        }
+    }
+}

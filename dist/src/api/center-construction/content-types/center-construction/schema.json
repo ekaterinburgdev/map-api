@@ -1,0 +1,26 @@
+{
+    "kind": "collectionType",
+    "collectionName": "center_constructions",
+    "info": {
+        "singularName": "center-construction",
+        "pluralName": "center-constructions",
+        "displayName": "☠️Center Construction",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "data": {
+            "type": "component",
+            "repeatable": false,
+            "component": "data-center.data-center"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_weather_weathers",
+    "info": {
+        "displayName": "weather"
+    },
+    "options": {},
+    "attributes": {
+        "weather": {
+            "type": "enumeration",
+            "enum": [
+                "Ясно",
+                "Пасмурно"
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "kind": "collectionType",
+    "collectionName": "red_line_lines",
+    "info": {
+        "singularName": "red-line-line",
+        "pluralName": "red-line-lines",
+        "displayName": "Red Line Line"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        }
+    }
+}

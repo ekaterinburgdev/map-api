@@ -1,0 +1,21 @@
+{
+    "kind": "collectionType",
+    "collectionName": "okn_security_zones",
+    "info": {
+        "singularName": "okn-security-zone",
+        "pluralName": "okn-security-zones",
+        "displayName": "Okn Security Zone",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        }
+    }
+}

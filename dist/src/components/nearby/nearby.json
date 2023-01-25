@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_nearby_nearbies",
+    "info": {
+        "displayName": "nearby"
+    },
+    "options": {},
+    "attributes": {
+        "nearby": {
+            "type": "enumeration",
+            "enum": [
+                "Многоквартирные жилые дома",
+                "Нерегулируемый перекрёсток равнозначных улиц (дорог)",
+                "Одиночный торговый объект, являющийся местом притяжения транспорта и (или) пешеходов"
+            ]
+        }
+    }
+}

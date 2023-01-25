@@ -1,0 +1,77 @@
+{
+    "kind": "collectionType",
+    "collectionName": "house",
+    "info": {
+        "singularName": "houses",
+        "pluralName": "house",
+        "displayName": "houses",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Address": {
+            "type": "string",
+            "unique": true
+        },
+        "Management_company": {
+            "type": "string"
+        },
+        "Series": {
+            "type": "string"
+        },
+        "Condition": {
+            "type": "enumeration",
+            "enum": [
+                "Аварийный",
+                "Исправный"
+            ]
+        },
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "Floors": {
+            "type": "integer"
+        },
+        "Year": {
+            "type": "integer"
+        },
+        "Emergency": {
+            "type": "enumeration",
+            "enum": [
+                "Нет",
+                "Да"
+            ]
+        },
+        "WearAndTear": {
+            "type": "float"
+        },
+        "CoordinatesHash": {
+            "type": "string"
+        },
+        "borders": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "LivingRoomsCount": {
+            "type": "integer"
+        },
+        "RoomsCount": {
+            "type": "integer"
+        },
+        "LiftsCount": {
+            "type": "integer"
+        },
+        "EntranceCount": {
+            "type": "integer"
+        },
+        "MinimalFloors": {
+            "type": "integer"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "kind": "collectionType",
+    "collectionName": "touristic_center_constructions",
+    "info": {
+        "singularName": "touristic-center-construction",
+        "pluralName": "touristic-center-constructions",
+        "displayName": "☠️Touristic Center Construction",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry",
+            "required": true
+        },
+        "data": {
+            "displayName": "dataCenter",
+            "type": "component",
+            "repeatable": false,
+            "component": "data-center.data-center"
+        }
+    }
+}

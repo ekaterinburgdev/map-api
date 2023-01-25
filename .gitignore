@@ -93,7 +93,7 @@ pids
 logs
 results
 node_modules
-dist
+# dist
 .node_history
 
 ############################

@@ -1,0 +1,75 @@
+{
+    "kind": "collectionType",
+    "collectionName": "okn_objects",
+    "info": {
+        "singularName": "okn-object",
+        "pluralName": "okn-objects",
+        "displayName": "okn objects",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "okn_number": {
+            "type": "biginteger"
+        },
+        "date": {
+            "type": "string"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "Памятник",
+                "Ансамбль"
+            ]
+        },
+        "category": {
+            "type": "enumeration",
+            "enum": [
+                "Регионального значения",
+                "Местного (муниципального) значения",
+                "Федерального значения"
+            ]
+        },
+        "img": {
+            "type": "string"
+        },
+        "document": {
+            "type": "text"
+        },
+        "isExist": {
+            "type": "enumeration",
+            "enum": [
+                "Оригинальный облик утрачен",
+                "Утраченный",
+                "Перенесён",
+                "Исключен",
+                "Существует"
+            ]
+        },
+        "comment": {
+            "type": "text"
+        },
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "borders": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "CoordinatesHash": {
+            "type": "string"
+        }
+    }
+}

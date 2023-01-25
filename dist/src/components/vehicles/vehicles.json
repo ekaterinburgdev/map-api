@@ -1,0 +1,27 @@
+{
+    "collectionName": "components_vehicles_vehicles",
+    "info": {
+        "displayName": "vehicles"
+    },
+    "options": {},
+    "attributes": {
+        "participants": {
+            "type": "json"
+        },
+        "brand": {
+            "type": "string"
+        },
+        "color": {
+            "type": "string"
+        },
+        "model": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "year": {
+            "type": "integer"
+        }
+    }
+}

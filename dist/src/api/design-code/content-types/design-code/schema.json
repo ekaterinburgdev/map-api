@@ -1,0 +1,50 @@
+{
+    "kind": "collectionType",
+    "collectionName": "design_codes",
+    "info": {
+        "singularName": "design-code",
+        "pluralName": "design-codes",
+        "displayName": "Design code",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "Фризы остановок",
+                "Таблички ОКН",
+                "Настенные таблички",
+                "Навигационные стелы",
+                "Исторические адресные таблички",
+                "Обычные адресные таблички",
+                "Таблички ЧО",
+                "Светофор",
+                "Логотипы и айдентика",
+                "Транспорт",
+                "Уличная мебель",
+                "Памятные таблички"
+            ]
+        },
+        "description": {
+            "type": "text"
+        },
+        "street": {
+            "type": "string"
+        },
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "id_string": {
+            "type": "string"
+        }
+    }
+}

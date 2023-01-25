@@ -1,0 +1,26 @@
+{
+    "kind": "collectionType",
+    "collectionName": "outside_center_constructions",
+    "info": {
+        "singularName": "outside-center-construction",
+        "pluralName": "outside-center-constructions",
+        "displayName": "☠️Outside Center Construction",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "data": {
+            "type": "component",
+            "repeatable": false,
+            "component": "data-center.data-center"
+        }
+    }
+}

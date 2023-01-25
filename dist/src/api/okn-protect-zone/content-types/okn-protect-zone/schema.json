@@ -1,0 +1,21 @@
+{
+    "kind": "collectionType",
+    "collectionName": "okn_protect_zones",
+    "info": {
+        "singularName": "okn-protect-zone",
+        "pluralName": "okn-protect-zones",
+        "displayName": "Okn Protect Zone",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        }
+    }
+}

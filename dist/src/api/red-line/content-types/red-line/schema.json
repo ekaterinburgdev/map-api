@@ -1,0 +1,41 @@
+{
+    "kind": "collectionType",
+    "collectionName": "red_lines",
+    "info": {
+        "singularName": "red-line",
+        "pluralName": "red-lines",
+        "displayName": "Red Line",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "geometry": {
+            "type": "component",
+            "repeatable": false,
+            "component": "geometry.geometry"
+        },
+        "iconCaption": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": true,
+            "required": false,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "description": {
+            "type": "string"
+        },
+        "CoordinatesHash": {
+            "type": "string"
+        }
+    }
+}

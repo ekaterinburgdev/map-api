@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_geometry_geometries",
+    "info": {
+        "displayName": "geometry",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "coordinates": {
+            "type": "json",
+            "required": true
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "Point",
+                "MultiPoint",
+                "LineString",
+                "MultiLineString",
+                "Polygon",
+                "MultiPolygon",
+                "GeometryCollection"
+            ],
+            "required": true,
+            "default": "Point"
+        }
+    }
+}
