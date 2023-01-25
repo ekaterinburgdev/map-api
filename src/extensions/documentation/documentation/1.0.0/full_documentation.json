@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-01-22T19:52:25.636Z"
+    "x-generation-date": "2023-01-25T14:44:20.198Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5395,6 +5395,9 @@
                     ]
                   }
                 }
+              },
+              "id_string": {
+                "type": "string"
               }
             }
           }
@@ -5461,15 +5464,14 @@
                         }
                       }
                     },
+                    "id_string": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
                     },
                     "updatedAt": {
-                      "type": "string",
-                      "format": "date-time"
-                    },
-                    "publishedAt": {
                       "type": "string",
                       "format": "date-time"
                     },
@@ -5847,15 +5849,14 @@
                       }
                     }
                   },
+                  "id_string": {
+                    "type": "string"
+                  },
                   "createdAt": {
                     "type": "string",
                     "format": "date-time"
                   },
                   "updatedAt": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
-                  "publishedAt": {
                     "type": "string",
                     "format": "date-time"
                   },
@@ -9021,10 +9022,6 @@
                       "type": "string",
                       "format": "date-time"
                     },
-                    "publishedAt": {
-                      "type": "string",
-                      "format": "date-time"
-                    },
                     "createdBy": {
                       "type": "object",
                       "properties": {
@@ -9381,10 +9378,6 @@
                     "type": "string",
                     "format": "date-time"
                   },
-                  "publishedAt": {
-                    "type": "string",
-                    "format": "date-time"
-                  },
                   "createdBy": {
                     "type": "object",
                     "properties": {
@@ -9730,7 +9723,8 @@
                   "Оригинальный облик утрачен",
                   "Утраченный",
                   "Перенесён",
-                  "Исключен"
+                  "Исключен",
+                  "Существует"
                 ]
               },
               "comment": {
@@ -9834,7 +9828,8 @@
                         "Оригинальный облик утрачен",
                         "Утраченный",
                         "Перенесён",
-                        "Исключен"
+                        "Исключен",
+                        "Существует"
                       ]
                     },
                     "comment": {
@@ -10261,7 +10256,8 @@
                       "Оригинальный облик утрачен",
                       "Утраченный",
                       "Перенесён",
-                      "Исключен"
+                      "Исключен",
+                      "Существует"
                     ]
                   },
                   "comment": {
