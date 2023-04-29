@@ -1,5 +1,16 @@
 # Map CMS
 
+Storage for Ekaterinburg map data
+
+**[CMS](https://map-api.ekaterinburg.io/)** | **[Swagger API documentation](https://map-api.ekaterinburg.io/documentation)**
+
+- [x] Houses data
+- [x] OKN objects (objects and zones)
+- [x] Tourist lines (pink, red, blue)
+- [x] Design code objects
+
+---
+
 Map admin using [Strapi](https://strapi.io/)
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
