@@ -1,21 +1,26 @@
 {
   "kind": "collectionType",
-  "collectionName": "pink_line_lines",
+  "collectionName": "cameras_roads",
   "info": {
-    "singularName": "pink-line-line",
-    "pluralName": "pink-line-lines",
-    "displayName": "Pink Line Line",
-    "description": ""
+    "singularName": "cameras-road",
+    "pluralName": "cameras-roads",
+    "displayName": "Cameras Road"
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
+    "name": {
+      "type": "string"
+    },
     "geometry": {
       "type": "component",
       "repeatable": false,
       "component": "geometry.geometry"
+    },
+    "view": {
+      "type": "string"
     }
   }
 }

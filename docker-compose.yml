@@ -20,14 +20,12 @@ services:
     depends_on:
       - postgres
     ports:
-      - "1340:1337"
+      - "1337:1337"
     volumes:
       - src:/app/src/
       - dist:/app/dist/
-      - node_modules:/app/node_modules/
 
 volumes:
   pgdata:
   src:
   dist:
-  node_modules:
