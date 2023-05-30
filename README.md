@@ -72,6 +72,12 @@ Design code objects from [map.ekaterinburg.design](https://map.ekaterinburg.desi
 /api/design-codes
 ```
 
+### Quarter Inspectors
+Data on quarterly inspectors from [екатеринбург.рф/справка/квартальные](https://xn--80acgfbsl1azdqr.xn--p1ai/%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0/%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5#tab1)
+```
+/api/quarter-inspectors
+```
+
 ## Development
 
 1. Install [Docker](https://docs.docker.com/engine/install/)
