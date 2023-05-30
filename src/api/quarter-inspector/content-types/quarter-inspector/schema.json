@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quarter_inspectors",
+  "info": {
+    "singularName": "quarter-inspector",
+    "pluralName": "quarter-inspectors",
+    "displayName": "Quarter Inspector",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "districtTitle": {
+      "type": "string"
+    },
+    "quarterTitle": {
+      "type": "string"
+    },
+    "quarterDescription": {
+      "type": "text"
+    },
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    }
+  }
+}
