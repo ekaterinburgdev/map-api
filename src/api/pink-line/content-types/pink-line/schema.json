@@ -4,20 +4,20 @@
   "info": {
     "singularName": "pink-line",
     "pluralName": "pink-lines",
-    "displayName": "Pink Line",
-    "description": ""
+    "displayName": "Pink Line"
   },
   "options": {
     "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "iconCaption": {
-      "type": "string",
-      "required": true,
-      "unique": true
+    "name": {
+      "type": "string"
     },
     "description": {
+      "type": "text"
+    },
+    "CoordinatesHash": {
       "type": "string"
     },
     "geometry": {
@@ -26,18 +26,14 @@
       "component": "geometry.geometry"
     },
     "image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
-    },
-    "CoordinatesHash": {
-      "type": "string"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
