@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-09T20:07:11.749Z"
+    "x-generation-date": "2023-07-09T22:19:00.256Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -14599,11 +14599,16 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
-              "CoordinatesHash": {
-                "type": "string"
+              "image": {
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "example": "string or id"
               },
               "geometry": {
                 "type": "object",
@@ -14623,16 +14628,11 @@
                   }
                 }
               },
-              "image": {
-                "oneOf": [
-                  {
-                    "type": "integer"
-                  },
-                  {
-                    "type": "string"
-                  }
-                ],
-                "example": "string or id"
+              "description": {
+                "type": "string"
+              },
+              "CoordinatesHash": {
+                "type": "string"
               }
             }
           }
@@ -14654,33 +14654,6 @@
                   "properties": {
                     "name": {
                       "type": "string"
-                    },
-                    "description": {
-                      "type": "string"
-                    },
-                    "CoordinatesHash": {
-                      "type": "string"
-                    },
-                    "geometry": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "string"
-                        },
-                        "coordinates": {},
-                        "type": {
-                          "type": "string",
-                          "enum": [
-                            "Point",
-                            "MultiPoint",
-                            "LineString",
-                            "MultiLineString",
-                            "Polygon",
-                            "MultiPolygon",
-                            "GeometryCollection"
-                          ]
-                        }
-                      }
                     },
                     "image": {
                       "type": "object",
@@ -15303,6 +15276,33 @@
                         }
                       }
                     },
+                    "geometry": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "coordinates": {},
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "Point",
+                            "MultiPoint",
+                            "LineString",
+                            "MultiLineString",
+                            "Polygon",
+                            "MultiPolygon",
+                            "GeometryCollection"
+                          ]
+                        }
+                      }
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "CoordinatesHash": {
+                      "type": "string"
+                    },
                     "createdAt": {
                       "type": "string",
                       "format": "date-time"
@@ -15640,33 +15640,6 @@
                 "properties": {
                   "name": {
                     "type": "string"
-                  },
-                  "description": {
-                    "type": "string"
-                  },
-                  "CoordinatesHash": {
-                    "type": "string"
-                  },
-                  "geometry": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "string"
-                      },
-                      "coordinates": {},
-                      "type": {
-                        "type": "string",
-                        "enum": [
-                          "Point",
-                          "MultiPoint",
-                          "LineString",
-                          "MultiLineString",
-                          "Polygon",
-                          "MultiPolygon",
-                          "GeometryCollection"
-                        ]
-                      }
-                    }
                   },
                   "image": {
                     "type": "object",
@@ -16288,6 +16261,33 @@
                         }
                       }
                     }
+                  },
+                  "geometry": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "coordinates": {},
+                      "type": {
+                        "type": "string",
+                        "enum": [
+                          "Point",
+                          "MultiPoint",
+                          "LineString",
+                          "MultiLineString",
+                          "Polygon",
+                          "MultiPolygon",
+                          "GeometryCollection"
+                        ]
+                      }
+                    }
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "CoordinatesHash": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

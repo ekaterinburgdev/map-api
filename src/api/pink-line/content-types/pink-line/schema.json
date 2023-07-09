@@ -14,17 +14,6 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
-    "CoordinatesHash": {
-      "type": "string"
-    },
-    "geometry": {
-      "type": "component",
-      "repeatable": false,
-      "component": "geometry.geometry"
-    },
     "image": {
       "allowedTypes": [
         "images",
@@ -34,6 +23,17 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "geometry": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geometry.geometry"
+    },
+    "description": {
+      "type": "text"
+    },
+    "CoordinatesHash": {
+      "type": "string"
     }
   }
 }
