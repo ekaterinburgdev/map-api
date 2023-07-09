@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "pink_lines",
+  "collectionName": "art_lines",
   "info": {
-    "singularName": "pink-line",
-    "pluralName": "pink-lines",
-    "displayName": "Pink Line",
+    "singularName": "art-line",
+    "pluralName": "art-lines",
+    "displayName": "Art Line",
     "description": ""
   },
   "options": {
@@ -12,12 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "iconCaption": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "description": {
+    "name": {
       "type": "string"
     },
     "geometry": {
@@ -25,9 +20,12 @@
       "repeatable": false,
       "component": "geometry.geometry"
     },
+    "description": {
+      "type": "text"
+    },
     "image": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
@@ -36,8 +34,8 @@
         "audios"
       ]
     },
-    "CoordinatesHash": {
-      "type": "string"
+    "coordinatesHash": {
+      "type": "biginteger"
     }
   }
 }
